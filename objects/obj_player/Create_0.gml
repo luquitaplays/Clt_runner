@@ -30,6 +30,7 @@ pegar_coisas = function()
     if (_ifood != noone)
     {
         instance_destroy(_ifood);
+        global.pontos++;
     }
     
     var _clt = instance_place(x, y, obj_clt);
@@ -65,5 +66,13 @@ movimento = function()
     else 
     {
         image_xscale = lerp(image_xscale, sentido, 0.1);
+    }
+}
+
+atualisa_score = function()
+{
+    if (global.pontos > global.best_score)
+    {
+        global.best_score = global.pontos;
     }
 }

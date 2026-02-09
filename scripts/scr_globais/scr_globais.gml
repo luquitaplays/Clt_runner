@@ -1,3 +1,3 @@
-
-
-global.sentido = 1;
+//variaveis globais
+global.pontos = 0;
+global.best_score = 0;

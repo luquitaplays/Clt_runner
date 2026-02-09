@@ -8,6 +8,7 @@ if (_no_botao)
     if (_aperta)
     {
         room_restart();
+        global.pontos = 0;
     }
 }
 else 

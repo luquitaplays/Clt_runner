@@ -7,3 +7,5 @@ checa_chao();
 pegar_coisas();
 
 movimento();
+
+atualisa_score();
