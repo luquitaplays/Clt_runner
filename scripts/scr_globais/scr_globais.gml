@@ -1,0 +1,3 @@
+
+
+global.sentido = 1;

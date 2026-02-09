@@ -9,7 +9,10 @@
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_ifood",
+    "path":"objects/obj_ifood/obj_ifood.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_coxinha",
+    "path":"sprites/spr_coxinha/spr_coxinha.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

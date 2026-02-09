@@ -9,7 +9,10 @@
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_ifood",
+    "path":"objects/obj_ifood/obj_ifood.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_chocolate",
+    "path":"sprites/spr_chocolate/spr_chocolate.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

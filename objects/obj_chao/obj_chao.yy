@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_food",
+  "%Name":"obj_chao",
   "eventList":[],
   "managed":true,
-  "name":"obj_food",
+  "name":"obj_chao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_chao",
+    "path":"sprites/spr_chao/spr_chao.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
