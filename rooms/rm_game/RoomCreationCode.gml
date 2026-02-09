@@ -1,0 +1,1 @@
+if (!audio_is_playing(snd_msc)) audio_play_sound(snd_msc, 0, 1);

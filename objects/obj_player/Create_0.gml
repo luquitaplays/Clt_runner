@@ -33,6 +33,7 @@ pegar_coisas = function()
     {
         instance_destroy(_ifood);
         global.pontos++;
+        audio_play_sound(snd_pickup, 0, 0);
     }
     
     var _clt = instance_place(x, y, obj_clt);
