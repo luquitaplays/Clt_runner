@@ -24,8 +24,32 @@ checa_chao = function()
     chao = place_meeting(x + sentido, y, obj_chao);
 }
 
+pegar_coisas = function()
+{
+    var _ifood = instance_place(x, y, obj_ifood);
+    if (_ifood != noone)
+    {
+        instance_destroy(_ifood);
+    }
+    
+    var _clt = instance_place(x, y, obj_clt);
+    if (_clt != noone)
+    {
+        if (!instance_exists(obj_UL))
+        {
+            instance_create_layer(room_width / 2, room_height / 2, "game", obj_UL);
+            image_speed = 0;
+            image_index = 4;
+            var lay_id = layer_get_id("Background");
+            layer_vspeed(lay_id, 0);
+        }
+    }
+}
+
 movimento = function()
 {
+    if (instance_exists(obj_UL)) return;
+    
     if (chao)
     {
         velh = 0;

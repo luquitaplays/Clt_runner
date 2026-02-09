@@ -18,6 +18,7 @@ else
     if (_x == 12) _ifood.image_xscale = -1;
 }
 
+if (instance_exists(obj_UL)) return;
 
 //chamando alarm
 randomize();

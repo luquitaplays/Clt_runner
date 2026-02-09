@@ -35,6 +35,7 @@
   },
   "name":"Clt_runner",
   "resources":[
+    {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"obj_batata","path":"objects/obj_batata/obj_batata.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_chocolate","path":"objects/obj_chocolate/obj_chocolate.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"obj_hamburguer","path":"objects/obj_hamburguer/obj_hamburguer.yy",},},
     {"id":{"name":"obj_ifood","path":"objects/obj_ifood/obj_ifood.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_UL","path":"objects/obj_UL/obj_UL.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"scr_globais","path":"scripts/scr_globais/scr_globais.yy",},},
     {"id":{"name":"spr_batata","path":"sprites/spr_batata/spr_batata.yy",},},
@@ -54,6 +56,7 @@
     {"id":{"name":"spr_fundo","path":"sprites/spr_fundo/spr_fundo.yy",},},
     {"id":{"name":"spr_hamburguer","path":"sprites/spr_hamburguer/spr_hamburguer.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_ul","path":"sprites/spr_ul/spr_ul.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
