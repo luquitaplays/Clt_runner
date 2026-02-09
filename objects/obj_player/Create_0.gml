@@ -8,6 +8,8 @@ left = 0;
 
 velh = 0;
 
+carregar_jogo();
+
 pega_imput = function()
 {
     right = keyboard_check_pressed(vk_right);
